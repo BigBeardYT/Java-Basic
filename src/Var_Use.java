@@ -7,6 +7,7 @@ public class Var_Use {
             sb.append(String.valueOf(i));
         }
         System.out.println(sb.toString());
+        System.out.println("1.2 * 2 = " + 1.2 * 2);
 
     }
 }
