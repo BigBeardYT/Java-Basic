@@ -7,7 +7,15 @@ public class Var_Use {
             sb.append(String.valueOf(i));
         }
         System.out.println(sb.toString());
+
+        // 除法运算是向下还是向上取整？ -- 都不是，而是取其中的整数部分，小数自动忽略
+        var num = 5;
+
+        System.out.println("5 / 2 = " + num / 2);
+        System.out.println("5 / 3 = " + num / 3);
+
         System.out.println("1.2 * 2 = " + 1.2 * 2);
+        System.out.println("1.2 * 4 = " + 1.2 * 4);
 
     }
 }
