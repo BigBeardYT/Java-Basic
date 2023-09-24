@@ -1,3 +1,5 @@
+package com.yt.intro;
+
 public class Var_Use {
     public static void main(String[] args) {
         // jvm会自动根据var后面new的内容生成对应的变量
