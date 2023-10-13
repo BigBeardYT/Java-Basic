@@ -39,7 +39,7 @@ public class SwitchRun {
             case "pear" -> 3;
             default -> {
                 int code = fruit.hashCode();
-                yield code; // switch 返回语句值
+                yield code; // switch 返回的语句值
             }
         };
         System.out.println("opt2 = " + opt2);
