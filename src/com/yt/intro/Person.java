@@ -26,4 +26,9 @@ public class Person {
     public String toString() {
         return "name: " + name + ", " + "age: " + age;
     }
+
+    // 父类的方法，子类如果重写了，就要加上注解@Override（但并不是必须的）
+    public void run() {
+        System.out.println("Person run ...");
+    }
 }

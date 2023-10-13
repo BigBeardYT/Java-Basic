@@ -27,4 +27,9 @@ public class Student extends Person{
     public String toString() {
         return super.toString() + ", score: " + score;
     }
+
+    @Override
+    public void run() {
+        System.out.println("Student run ... ");
+    }
 }
