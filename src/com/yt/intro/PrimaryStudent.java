@@ -8,7 +8,6 @@ public class PrimaryStudent extends Student{
         this.grade = grade;
     }
 
-    @Override
     public String toString() {
         return super.toString() + ", grade: " + grade;
     }
