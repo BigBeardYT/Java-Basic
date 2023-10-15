@@ -22,5 +22,7 @@ public class testPerson {
 
         System.out.println(p2);
 
+        System.out.println("Person类创建实例的个数为: " + Person.getCount());
+
     }
 }
