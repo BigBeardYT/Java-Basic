@@ -6,5 +6,8 @@ public class testOuterClass {
         Outer outer = new Outer("内部类1");
         Outer.Inner inner = outer.new Inner();  // 实例化一个Inner
         inner.hello();
+
+        Outer.StaticNested staticNested = new Outer.StaticNested();
+        staticNested.hello();
     }
 }

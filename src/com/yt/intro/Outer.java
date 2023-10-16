@@ -2,6 +2,7 @@ package com.yt.intro;
 
 public class Outer {
     private String name;
+    private static String NAME = "OUTER";
 
     Outer(String name) {
         this.name = name;
@@ -21,6 +22,8 @@ public class Outer {
     }
     /**
      * 还有一种，匿名类，也是内部类的一种
+     * 我们在方法内部实例化了一个Runnable。Runnable本身是接口，接口是不能实例化的，所以这里实际上是定义了一个实现了Runnable接口的匿名类，
+     * 并且通过new实例化该匿名类，然后转型为Runnable
      */
     void asyncHello() {
         Runnable r = new Runnable() {
@@ -30,6 +33,12 @@ public class Outer {
             }
         };
         new Thread(r).start();
+    }
+
+    static class StaticNested {
+        void hello() {
+            System.out.println("Hello, Static Nested Class, " + Outer.NAME);
+        }
     }
 
 
