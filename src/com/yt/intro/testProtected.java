@@ -1,5 +1,5 @@
-package com.yt.coreclass;
-import com.yt.intro.Person;
+package com.yt.intro;
+
 public class testProtected {
     public static void main(String[] args) {
         Person p1 = new Person("张三", 19);

@@ -1,4 +1,4 @@
-package com.yt.coreclass;
+package com.yt.intro;
 
 import com.yt.intro.Person;
 
