@@ -2,6 +2,7 @@ package com.yt.intro;
 
 public class testAbsIncome {
     public static void main(String[] args) {
+        /* 实现工资的税为多少 */
         /**
          * 方法一：为每一个子类分别创建实例,然后分别调用其对应的方法来获取该收入的税收
          */
