@@ -16,7 +16,12 @@ public class Pair<T> {
     public T getLast() {
         return last;
     }
-
+    public void setFirst(T first) {
+        this.first = first;
+    }
+    public void setLast(T last) {
+        this.last = last;
+    }
     // 静态泛型方法应该使用其他类型区分:  这样才能清楚地将静态方法的泛型类型和实例类型的泛型类型区分开。
     public static <K> Pair<K> create(K first, K last) {
         return new Pair<K>(first, last);
