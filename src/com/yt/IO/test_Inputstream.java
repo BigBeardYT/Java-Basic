@@ -1,12 +1,19 @@
 package com.yt.IO;
 
-import java.io.ByteArrayInputStream;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
+import java.util.Scanner;
 
 public class test_Inputstream {
     public static void main(String[] args) throws Exception{
+        System.out.println("自定义输入:");
+        Scanner sc = new Scanner(System.in);
+        String sin = sc.nextLine();
+        while((sc.nextLine()) != null) {
+            System.out.println(sc.nextLine());
+        }
+        System.out.println(sin);
+        System.out.println("自定义输入结束...");
+
 //        readFile();
         byte [] data = {87, 43, 108, 127};
         try(InputStream inputStream = new ByteArrayInputStream(data)) {
