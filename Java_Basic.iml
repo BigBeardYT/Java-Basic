@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Java/jar_pkg/commons-logging-1.2/commons-logging-1.2.jar!/" />
+          <root url="jar://E:/Data_Java/Jar/log4j-api-2.21.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -19,7 +19,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Java/jar_pkg/apache-log4j-2.21.0-bin/log4j-api-2.21.0.jar!/" />
+          <root url="jar://E:/Data_Java/Jar/log4j-core-2.21.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -28,7 +28,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Java/jar_pkg/apache-log4j-2.21.0-bin/log4j-core-2.21.0.jar!/" />
+          <root url="jar://E:/Data_Java/Jar/logback-classic-1.4.12.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -37,7 +37,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Java/jar_pkg/apache-log4j-2.21.0-bin/log4j-jcl-2.21.0.jar!/" />
+          <root url="jar://E:/Data_Java/Jar/logback-core-1.4.12.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -46,7 +46,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Java/jar_pkg/slf4j/slf4j-api-2.0.9.jar!/" />
+          <root url="jar://E:/Data_Java/Jar/slf4j-api-2.0.9.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -55,16 +55,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Java/jar_pkg/logback/logback-classic-1.4.8.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Java/jar_pkg/logback/logback-core-1.4.8.jar!/" />
+          <root url="jar://E:/Data_Java/Jar/commons-logging-1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
